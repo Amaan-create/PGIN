@@ -42,6 +42,39 @@ import p39 from "../../assets/P39.jpg";
 import p40 from "../../assets/P40.jpg";
 
 const Pg = () => {
+   useEffect(() => {
+    const gallerySection = document.querySelector("#gallery"); // Adjust this based on your gallery section
+    const originalPosition = window.pageYOffset;
+    const scrollDuration = 3000; // 3 seconds
+    const totalSteps = 60; // Increase for smoother and slower scroll
+    let currentStep = 0;
+
+    const scrollInterval = setInterval(() => {
+      const galleryPosition =
+        gallerySection.getBoundingClientRect().top + window.pageYOffset;
+      const scrollStep = (galleryPosition - originalPosition) / totalSteps;
+
+      window.scrollBy(0, scrollStep);
+
+      currentStep += 1;
+      if (currentStep >= totalSteps) {
+        clearInterval(scrollInterval);
+
+        // Scroll back after reaching the gallery
+        setTimeout(() => {
+          let backStep = 0;
+          const backInterval = setInterval(() => {
+            window.scrollBy(0, -scrollStep);
+            backStep += 1;
+            if (backStep >= totalSteps) {
+              clearInterval(backInterval);
+            }
+          }, scrollDuration / totalSteps);
+        }, 3000); // Wait for 3 seconds at the gallery
+      }
+    }, scrollDuration / totalSteps);
+  }, []);
+
   return (
     <div className="campus">
       <div className="gallery">

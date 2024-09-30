@@ -32,12 +32,12 @@ const Testimonials = () => {
       />
       <div className="slider">
         <ul ref={slider}>
-          <li>
+         <li>
             <div className="slide">
               <div className="user-info">
                 <img src={icon} alt="" />
                 <div>
-                  <h3>Customer1</h3>
+                  <h3>Tenet 1</h3>
                 </div>
               </div>
               <p>
@@ -53,7 +53,7 @@ const Testimonials = () => {
               <div className="user-info">
                 <img src={icon} alt="" />
                 <div>
-                  <h3>Customer2</h3>
+                  <h3>Tenet 2</h3>
                 </div>
               </div>
               <p>
@@ -69,57 +69,7 @@ const Testimonials = () => {
               <div className="user-info">
                 <img src={icon} alt="" />
                 <div>
-                  <h3>Customer3</h3>
-                </div>
-              </div>
-              <p>
-                {" "}
-                "Mujhe yaha rehkar bahut achha laga. Location bhi perfect hai,
-                market aur metro dono paas mein hain. Kashif bhai kaafi
-                samajhdaar aur cooperative hain, kabhi koi dikkat hui toh turant
-                solve kar di. Yaha rehkar bilkul ghar jaisa sukoon mila."
-              </p>
-            </div>
-          </li>
-          <li>
-            <div className="slide">
-              <div className="user-info">
-                <img src={icon} alt="" />
-                <div>
-                  <h3>Customer4</h3>
-                </div>
-              </div>
-              <p>
-                "PG ki facilities aur location dono best hain. Kashif bhai ki
-                wajah se yaha rehna aur bhi easy ho gaya. Vo hamesha residents
-                ki help karte hain aur atmosphere bhi friendly hai. Agar
-                Vaishali mein PG chahiye toh yeh ekdum perfect jagah hai."
-              </p>
-            </div>
-          </li>
-          <li>
-            <div className="slide">
-              <div className="user-info">
-                <img src={icon} alt="" />
-                <div>
-                  <h3>Tenet 5</h3>
-                </div>
-              </div>
-              <p>
-                "Staying at RK PG has been a wonderful experience. The proximity
-                to the Vaishali Metro Station made commuting so easy, and the
-                locality is very safe. Kashif, the owner, is extremely helpful
-                and ensures everything runs smoothly. I highly recommend this
-                place for anyone looking for a comfortable and secure stay."
-              </p>
-            </div>
-          </li>
-          <li>
-            <div className="slide">
-              <div className="user-info">
-                <img src={icon} alt="" />
-                <div>
-                  <h3>Tenet 6</h3>
+                  <h3>Tenet 3</h3>
                 </div>
               </div>
               <p>
@@ -131,6 +81,23 @@ const Testimonials = () => {
               </p>
             </div>
           </li>
+          <li>
+            <div className="slide">
+              <div className="user-info">
+                <img src={icon} alt="" />
+                <div>
+                  <h3>Tenet 4</h3>
+                </div>
+              </div>
+              <p>
+                "PG ki facilities aur location dono best hain. Kashif bhai ki
+                wajah se yaha rehna aur bhi easy ho gaya. Vo hamesha residents
+                ki help karte hain aur atmosphere bhi friendly hai. Agar
+                Vaishali mein PG chahiye toh yeh ekdum perfect jagah hai."
+              </p>
+            </div>
+          </li>
+
         </ul>
       </div>
     </div>

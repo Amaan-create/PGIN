@@ -97,6 +97,40 @@ const Testimonials = () => {
               </p>
             </div>
           </li>
+          <li>
+            <div className="slide">
+              <div className="user-info">
+                <img src={icon} alt="" />
+                <div>
+                  <h3>Tenet 5</h3>
+                </div>
+              </div>
+              <p>
+                "Staying at RK PG has been a wonderful experience. The proximity
+                to the Vaishali Metro Station made commuting so easy, and the
+                locality is very safe. Kashif, the owner, is extremely helpful
+                and ensures everything runs smoothly. I highly recommend this
+                place for anyone looking for a comfortable and secure stay."
+              </p>
+            </div>
+          </li>
+          <li>
+            <div className="slide">
+              <div className="user-info">
+                <img src={icon} alt="" />
+                <div>
+                  <h3>Tenet 6</h3>
+                </div>
+              </div>
+              <p>
+                "RK Paying Guest feels just like home. The rooms are clean, and
+                the amenities are top-notch. Kashif is always available for any
+                assistance and goes the extra mile to make sure everyone feels
+                comfortable. The location is ideal, with everything close by,
+                and the security is top-notch. It's a great place to live!"
+              </p>
+            </div>
+          </li>
         </ul>
       </div>
     </div>

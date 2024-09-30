@@ -23,7 +23,7 @@ const App = () => {
           title="Prices starting from 4999/- Triple Sharing, Double Sharing 6500/-, Triple Sharing 5000/- AC Room"
         />
         <Pg />
-        <Title subTitle="TESTIMONIALS" title="OUr Customers" />
+        <Title subTitle="TESTIMONIALS" title="Our Tenets" />
         <Testimonials />
         <Title subTitle="CONTACT US" title="Get In Touch" />
         <Contact />

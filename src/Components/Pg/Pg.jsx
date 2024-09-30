@@ -71,13 +71,13 @@ const Pg = () => {
               clearInterval(backInterval);
             }
           }, scrollDuration / totalSteps);
-        }, 3000); // Wait for 3 seconds at the gallery
+        }, 5000); // Wait for 3 seconds at the gallery
       }
     }, scrollDuration / totalSteps);
   }, []);
 
   return (
-    <div className="campus">
+    <div id="gallery" className="campus">
       <div className="gallery">
         <img src={p1} alt="" />
         <img src={p2} alt="" />

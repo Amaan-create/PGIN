@@ -1,4 +1,5 @@
 import React from "react";
+import {useEffect} from 'react';
 import "./Pg.css";
 import p1 from "../../assets/P1.jpg";
 import p2 from "../../assets/P2.jpg";

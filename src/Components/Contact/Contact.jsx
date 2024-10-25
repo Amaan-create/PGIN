@@ -45,9 +45,6 @@ const Contact = () => {
           possible. We’re looking forward to assisting you!
         </p>
         <ul>
-          <li>
-            <img src={mail_icon} alt="" /> kashif.ahmad1981@gmail.com
-          </li>
            <li>
             <img src={mail_icon} alt="" /> rkpg0630@gmail.com
           </li>

@@ -48,6 +48,9 @@ const Contact = () => {
           <li>
             <img src={mail_icon} alt="" /> kashif.ahmad1981@gmail.com
           </li>
+           <li>
+            <img src={mail_icon} alt="" /> rkpg0630@gmail.com
+          </li>
           <li>
             <img src={phone_icon} alt="" />
             9555521206
